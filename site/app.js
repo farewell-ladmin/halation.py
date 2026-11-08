@@ -36,7 +36,7 @@ function giveUpOnWorker(why) {
 }
 try {
   if (new URLSearchParams(location.search).get("noworker")) throw new Error("disabled by ?noworker=1 (test hook)");
-  worker = new Worker("worker.js");
+  worker = new Worker("worker.js?v=ae2240a2");
   worker.onmessage = e => { workerSeen = true; const m = e.data; const w = waiting.get(m.id); if (!w) return; waiting.delete(m.id); m.type === "error" ? w.reject(new Error(m.message)) : w.resolve(m); };
   worker.onerror = e => giveUpOnWorker(e.message || "script error");
 } catch (e) { worker = null; giveUpOnWorker(e.message); }
@@ -207,6 +207,10 @@ viewer.addEventListener("pointerup", e => {
   tap = null;
 });
 viewer.addEventListener("pointercancel", () => { dragging = false; tap = null; });
+// Some mobile browsers start a scroll before honouring touch-action on the handle; cancelling the raw touch
+// events there (non-passive) guarantees a drag that begins on the handle never becomes a page scroll.
+for (const ev of ["touchstart", "touchmove"]) handle.addEventListener(ev, e => { e.preventDefault(); }, { passive: false });
+viewer.addEventListener("touchmove", e => { if (dragging) e.preventDefault(); }, { passive: false });
 viewer.addEventListener("keydown", e => {
   const k = e.key; let v = null;
   if (k === "ArrowLeft" || k === "ArrowDown") v = split - 0.05; else if (k === "ArrowRight" || k === "ArrowUp") v = split + 0.05;
