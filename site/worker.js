@@ -2,7 +2,7 @@
    change is one cheap composite pass. Protocol: {type:"halo", id, rgba, w, h, cfg} -> {type:"halo", id}
    {type:"composite", id, strength} -> {type:"composite", id, rgba}   (preview-size, reuses stored halo + rgba)
    {type:"full", id, rgba, w, h, cfg, strength} -> {type:"full", id, rgba}   (one-shot, full size) */
-importScripts("halation-core.js");
+importScripts("halation-core.js?v=4c6471ad");
 let cur = null;   // { rgba, w, h, halo }
 self.onmessage = e => {
   const m = e.data;
