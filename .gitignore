@@ -1,0 +1,10 @@
+# personal photos and renders never go in the repo; synthetic test assets and their references do
+site/test/*
+!site/test/synthetic_sources.png
+!site/test/synthetic_ref_*.png
+*.zip
+
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

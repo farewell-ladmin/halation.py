@@ -1,0 +1,106 @@
+48 files in xx_examples
+file                               roll     push  L50 core% blobs scene  L/far at 0.3 / 0.6 / 1.0 / 2.0 %
+0592-19 xx.jpg                     MWFC XX  box    46  0.08     8 area   2.57 1.59 1.02 0.92
+0592-8 xx.jpg                      MWFC XX  box    23  1.11    25 point  3.49 2.90 2.72 2.27
+3356_00087784.tif_3356_00087790-2  MWFC XX  box    78  0.72    87 area   2.69 2.30 1.84 1.62
+3382-12 cs-xx.jpg                  CS BwXX  box    70  0.00     0   -    no usable sources
+3382-6 cs-xx.jpg                   CS BwXX  box    34  0.00     0   -    no usable sources
+3382-7 cs-xx.jpg                   CS BwXX  box   136  0.02     9   -    no usable sources
+3382-8 cs-xx.jpg                   CS BwXX  box    46  0.08     1 area   3.52 3.28 2.96 2.75
+3967_00090947.tif_3967_00090950-2  MWFC XX  box    99  0.05    13 area   2.11 1.94 1.96 1.82
+4018-17 xx.jpg                     MWFC XX  +2     32  0.13    11 point  3.80 2.64 1.86 1.45
+4018-4 xx.jpg                      MWFC XX  +2     25  0.61    16 point  2.66 2.34 2.23 1.95
+4018-9 xx.jpg                      MWFC XX  +2     73  0.47    31 area   1.57 1.28 1.13 1.04
+4164-12 mwfc-xx.jpg                MWFC XX  +3     74  0.00     0   -    no usable sources
+4164-15 mwfc-xx.jpg                MWFC XX  +3     50  0.00     1   -    no usable sources
+4164-19 mwfc-xx.jpg                MWFC XX  +3     45  0.00     0   -    no usable sources
+4164-3 mwfc-xx.jpg                 MWFC XX  +3     17  0.52    62 point  2.96 1.93 1.08 0.84
+4164-7 mwfc-xx.jpg                 MWFC XX  +3     48  2.03    61 area   3.13 2.67 2.35 2.13
+4164-9 mwfc-xx.jpg                 MWFC XX  +3     18  0.01     5   -    no usable sources
+4165-15 mwfc-xx.jpg                MWFC XX  +3      9  0.11     5 point  18.06 11.49 4.22 1.80
+4165-16 mwfc-xx.jpg                MWFC XX  +3      9  0.02     2   -    no usable sources
+4165-19 mwfc-xx.jpg                MWFC XX  +3     11  0.01     4   -    no usable sources
+4165-20 mwfc-xx.jpg                MWFC XX  +3     12  0.03     5 point  8.65 6.55 4.56 2.86
+4165-3 mwfc-xx.jpg                 MWFC XX  +3     11  0.07    18 point  6.01 2.81 1.31 1.30
+4165-4 mwfc-xx.jpg                 MWFC XX  +3      9  0.15     2 point  14.14 7.82 4.59 1.55
+4165-6 mwfc-xx.jpg                 MWFC XX  +3     14  0.02     6 point  7.32 5.56 3.05 1.77
+4426_00087295.tif_4426_00087301 xx MWFC XX  box    75  1.52    39 area   1.77 1.61 1.60 1.59
+4426_00087337.tif_4426_00087343 xx MWFC XX  box    26  0.06    21 point  1.89 1.70 1.59 1.30
+4426_00087392.tif_4426_00087398 xx MWFC XX  box    42  2.03   114 area   2.11 1.70 1.25 0.94
+4427_00087441.tif_4427_00087447 xx MWFC XX  box    20  0.20    44 point  5.24 4.87 4.32 2.70
+8276-11 mwfc-cine-800.jpg          Cine800  box    41  5.90   221 area   4.77 3.94 3.40 3.02
+8276-15 mwfc-cine-800.jpg          Cine800  box    22  0.16    31 point  3.35 2.35 1.98 2.20
+8276-7 mwfc-cine-800.jpg           Cine800  box    59  2.99   114 area   2.01 1.73 1.56 1.44
+8276-8 mwfc-cine-800.jpg           Cine800  box    45  1.05    41 area   3.04 2.32 1.94 1.55
+8276-9 mwfc-cine-800.jpg           Cine800  box    42  0.64    69 point  3.29 2.45 2.05 1.76
+9492-10 xx.jpg                     Cine800  box    31  4.96   142 area   4.45 3.40 2.64 1.99
+9492-13 xx.jpg                     Cine800  box    86  1.16    51 area   1.62 1.40 1.19 1.22
+9492-16 xx.jpg                     Cine800  box    86  0.00     0   -    no usable sources
+9492-2 xx.jpg                      Cine800  box    88  0.02     2   -    no usable sources
+9492-6 xx.jpg                      Cine800  box    20  2.03    69 area   10.44 9.19 6.92 3.36
+9492-7 xx.jpg                      Cine800  box    12  0.55    40 point  3.39 2.93 2.64 1.51
+_A7R4009-positive mwfc-xx.jpg      unknown  box    13  0.10     8 point  2.28 1.38 1.11 1.14
+_A7R4014-positive mwfc-xx.jpg      unknown  box    21  1.85    49 area   6.27 3.54 1.97 2.48
+_A7R4015-positive mwfc-xx.jpg      unknown  box    26  1.89   187 area   3.24 2.22 1.95 1.45
+_A7R4018-positive mwfc-xx.jpg      unknown  box    68  0.16     7 area   1.38 0.90 0.72 0.64
+_A7R4022-positive mwfc-xx.jpg      unknown  box    52  0.32    14 area   1.95 1.49 1.13 0.73
+_A7R4023-positive mwfc-xx.jpg      unknown  box    28  0.87    22 point  2.12 1.59 1.26 1.35
+_A7R4025-positive mwfc-xx.jpg      unknown  box    87  0.35    36 area   1.67 1.06 0.85 0.95
+_A7R4027-positive mwfc-xx.jpg      unknown  box   112  0.00     0   -    no usable sources
+_A7R4031-positive mwfc-xx.jpg      unknown  box    14  0.36    30 point  7.71 5.87 4.34 3.12
+
+ALL xx_examples with sources: 36 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   194   162   139   122   106    91    86    82    71    62    59    58    57
+    ring / far-field  4.81  3.54  3.18  2.74  2.34  2.09  1.95  1.90  1.75  1.57  1.53  1.46  1.40
+  far-field median 39
+
+point-source frames: 17 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   177   130   116   109    94    83    78    70    64    52    54    48    48
+    ring / far-field  5.46  4.21  3.49  3.23  2.81  2.31  2.23  2.24  2.08  1.76  1.61  1.46  1.41
+  far-field median 31
+
+area frames: 19 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   197   168   148   130   107    99    94    90    85    86    83    77    75
+    ring / far-field  3.02  2.83  2.57  2.15  1.94  1.94  1.84  1.74  1.63  1.55  1.53  1.44  1.35
+  far-field median 62
+
+CS BwXX: 1 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   209   203   199   193   186   177   168   164   161   156   151   150   146
+    ring / far-field  3.68  3.58  3.52  3.41  3.28  3.12  2.96  2.90  2.84  2.75  2.66  2.65  2.58
+  far-field median 57
+
+MWFC XX: 18 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   192   155   135   119   106    89    81    78    66    61    56    55    57
+    ring / far-field  4.87  3.44  3.04  2.74  2.49  2.08  1.91  1.84  1.79  1.61  1.53  1.46  1.40
+  far-field median 39
+
+Cine800: 9 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   193   161   141   130   113    99    94    85    78    76    74    70    63
+    ring / far-field  5.03  3.75  3.35  2.89  2.45  2.17  2.05  2.02  2.08  1.76  1.73  1.64  1.54
+  far-field median 34
+
+box speed: 26 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   193   156   136   122   103    95    89    84    77    68    62    63    62
+    ring / far-field  4.25  3.37  2.87  2.61  2.26  2.01  1.94  1.82  1.69  1.57  1.53  1.49  1.50
+  far-field median 46
+
+pushed: 10 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   199   172   148   128   109    81    74    65    59    51    48    40    38
+    ring / far-field  6.63  5.70  4.90  3.97  2.74  2.40  2.29  2.32  2.15  1.66  1.51  1.43  1.30
+  far-field median 28
+
+digital Acros control (GFX night/mid): 43 frames
+    dist % long edge   0.1   0.2   0.3   0.4   0.6   0.8   1.0   1.3   1.6   2.0   2.5   3.0   4.0
+      ring luminance   200   176   159   147   139   130   124   123   114   108   101    98    97
+    ring / far-field  2.47  2.16  1.99  1.87  1.77  1.68  1.63  1.57  1.49  1.36  1.27  1.24  1.18
+  far-field median 79
+
+sheet written with 12 tiles
