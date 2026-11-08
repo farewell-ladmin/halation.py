@@ -188,11 +188,25 @@ const viewer = $("viewer"), over = $("over_wrap"), handle = $("handle");
 let split = 0.5;
 function setSplit(v) { split = Math.min(1, Math.max(0, v)); over.style.clipPath = `inset(0 0 0 ${split * 100}%)`; handle.style.left = `${split * 100}%`; viewer.setAttribute("aria-valuenow", Math.round(split * 100)); viewer.setAttribute("aria-valuetext", split <= 0 ? "halation only" : split >= 1 ? "before only" : `${Math.round(split * 100)}% before`); }
 function posFrom(e) { const r = viewer.getBoundingClientRect(); return (e.clientX - r.left) / r.width; }
-let dragging = false;
-viewer.addEventListener("pointerdown", e => { if (e.button !== 0 && e.pointerType === "mouse") return; dragging = true; viewer.setPointerCapture(e.pointerId); setSplit(posFrom(e)); });
-viewer.addEventListener("pointermove", e => { if (dragging) setSplit(posFrom(e)); });
-viewer.addEventListener("pointerup", () => { dragging = false; });
-viewer.addEventListener("pointercancel", () => { dragging = false; });
+// Touch: the handle owns the gesture (touch-action: none on it, so the browser never turns the drag into a
+// scroll); a tap anywhere else on the photo jumps the split there and the page still scrolls over the image.
+// Mouse: drag from anywhere.
+let dragging = false, tap = null;
+viewer.addEventListener("pointerdown", e => {
+  if (e.pointerType === "mouse") { if (e.button !== 0) return; dragging = true; viewer.setPointerCapture(e.pointerId); setSplit(posFrom(e)); return; }
+  if (e.target === handle || handle.contains(e.target)) { dragging = true; viewer.setPointerCapture(e.pointerId); e.preventDefault(); return; }
+  tap = { x: e.clientX, y: e.clientY, t: performance.now() };
+});
+viewer.addEventListener("pointermove", e => {
+  if (dragging) { setSplit(posFrom(e)); return; }
+  if (tap && Math.hypot(e.clientX - tap.x, e.clientY - tap.y) > 12) tap = null;   // became a scroll
+});
+viewer.addEventListener("pointerup", e => {
+  if (dragging) { dragging = false; return; }
+  if (tap && performance.now() - tap.t < 400) setSplit(posFrom(e));
+  tap = null;
+});
+viewer.addEventListener("pointercancel", () => { dragging = false; tap = null; });
 viewer.addEventListener("keydown", e => {
   const k = e.key; let v = null;
   if (k === "ArrowLeft" || k === "ArrowDown") v = split - 0.05; else if (k === "ArrowRight" || k === "ArrowUp") v = split + 0.05;
